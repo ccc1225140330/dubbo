@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-provider" />
-        <module name="1-api" />
         <module name="springboot-customer" />
+        <module name="1-api" />
+        <module name="springboot-provider" />
         <module name="2-provider" />
         <module name="3-customer" />
       </profile>
