@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-provider" />
+        <module name="1-api" />
+        <module name="springboot-customer" />
+        <module name="2-provider" />
+        <module name="3-customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1-api" target="1.8" />
+      <module name="2-provider" target="1.8" />
+      <module name="3-customer" target="1.8" />
+      <module name="dubbo" target="1.8" />
+      <module name="springboot-customer" target="1.8" />
+      <module name="springboot-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-customer" options="-parameters" />
+      <module name="springboot-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
